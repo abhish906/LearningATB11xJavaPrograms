@@ -18,7 +18,7 @@ public class Lab025_Interview_Concat_Plus {
 
         System.out.println(f_name+l_name+a+b);
         // + operator sees string first so it performs combination
-        // if we use bracket then it will not combine integers
+        // if we use bracket then it will not combine integers with string it will add them
         System.out.println(f_name+l_name+(a+b));
         System.out.println(a+b+f_name+l_name);
         // + operator sees numbers first so it performs addition and then combination of strings
