@@ -9,7 +9,7 @@ public class Lab066_While_Guessing_Game {
     public static void main(String[] args) {
         Random rd = new Random();
         int guess_num = rd.nextInt(11);
-        System.out.println(guess_num);
+       // System.out.println(guess_num);
 
         System.out.println("Enter the number");
         Scanner sc = new Scanner(System.in);

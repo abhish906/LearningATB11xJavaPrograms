@@ -8,6 +8,17 @@ public class Lab082_array_1 {
         System.out.println(a[3]);
         System.out.println(a.length);
 
+        int max=a[0];
+        for(int i=1;i<a.length;i++)
+        {
+            if(a[i]>max)
+            {
+                max=a[i];
+            }
+
+        }
+        System.out.println(max);
+
         int [] b=new int[4];// fixed size array
         b[0]=34;
         b[1]=23;

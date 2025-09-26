@@ -1,6 +1,7 @@
 package ex_12_Arrays;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Lab084_Printing_array {
     public static void main(String[] args) {
@@ -14,6 +15,9 @@ public class Lab084_Printing_array {
         {
             System.out.println(a[i]);
         }
+
+        System.out.println(Arrays.toString(a));
+
 
     }
 }

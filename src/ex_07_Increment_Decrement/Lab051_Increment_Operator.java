@@ -11,7 +11,7 @@ public class Lab051_Increment_Operator {
         // post increment operator first prints the result and then increments the value
         int c=10;//here c is 10
         int d=c++;// here also c will be 10
-        System.out.println(d);//here c will be 11
-        System.out.println(c);
+        System.out.println(d);
+        System.out.println(c);//here c will be 11
     }
 }

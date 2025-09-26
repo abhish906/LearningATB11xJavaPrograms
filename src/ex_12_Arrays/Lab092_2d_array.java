@@ -15,6 +15,17 @@ public class Lab092_2d_array {
         a[2][1]=8;
         a[2][2]=9;
 
+        for (int i=0;i<a.length;i++)
+        {
+            for(int j=0;j<a[i].length;j++)
+            {
+                System.out.print(a[i][j]+ " ");
+            }
+            System.out.println();
+
+
+        }
+
         int [][]b={{1,2,3},{4,5,6},{7,8,9}};
 
 

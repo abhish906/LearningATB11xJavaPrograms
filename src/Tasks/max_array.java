@@ -1,0 +1,17 @@
+package Tasks;
+
+public class max_array {
+    public static void main(String[]args)
+    {
+        int[] num={54,34,23,11,98};
+        int max=num[0];
+        for(int i=0;i<num.length;i++)
+        {
+            if(num[i]>max)
+            {
+                max=num[i];
+            }
+        }
+        System.out.println(max);
+    }
+}

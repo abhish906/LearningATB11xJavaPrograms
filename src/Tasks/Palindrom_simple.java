@@ -9,10 +9,12 @@ public class Palindrom_simple {
         System.out.println("Enter the word");
         String input=sc.next();
         String reverse="";
-        for(int i=input.length()-1;i>=0;i--)
+       // for(int i=input.length()-1;i>=0;i--)
+            for(int i=0;i<input.length();i++)
         {
-            reverse=reverse+input.charAt(i);
+            reverse=input.charAt(i)+reverse;
         }
+        System.out.println(reverse);
         if (reverse.equalsIgnoreCase(input))
         {
             System.out.println("palindrome");

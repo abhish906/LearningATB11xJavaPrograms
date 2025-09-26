@@ -10,6 +10,7 @@ public class Lab083_array_2 {
         System.out.println(c[1]);
 
         String name[]=new String[3];
+        name[0]="Raj";
         name[1]="Abhi";
         name[2]="Rohit";
         System.out.println(name[1]);

@@ -21,6 +21,7 @@ public class Vowels_Consonant {
                 cons++;
             }
 
+
         }
         System.out.println("Vowels = " + vowels);
         System.out.println("Consonant = " + cons);
