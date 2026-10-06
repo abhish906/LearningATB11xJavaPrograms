@@ -13,6 +13,9 @@ public class Lab128_Hashset {
         hs.add(null);
         hs.add(null);
         hs.add(324);
+
+
+
         System.out.println(hs);
         System.out.println(hs.contains("Red"));
 

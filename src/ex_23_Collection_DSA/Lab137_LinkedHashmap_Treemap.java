@@ -18,6 +18,7 @@ public class Lab137_LinkedHashmap_Treemap {
         m.remove("Addr2");
         System.out.println(m);
 
+
         Map m1=new HashMap();
         m1.put("Name","Abhishek");
         m1.put("Age",12);
@@ -34,7 +35,15 @@ public class Lab137_LinkedHashmap_Treemap {
         m2.put("null",null);
         m2.put("Age",12);
         m2.put("Addr2","Ulwe");
+
         System.out.println(m2);
+
+        Map m3=new LinkedHashMap();
+        m3.putAll(m1);
+        m3.putAll(m2);
+        System.out.println("m3= "+m3);
+
+
 
 
     }

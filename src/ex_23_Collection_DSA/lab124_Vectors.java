@@ -10,12 +10,14 @@ public class lab124_Vectors {
         v.add("Blue");
         v.add("Green");
         v.add("Yellow");
+
         System.out.println(v);
         v.remove("Yellow");
         System.out.println(v);
         for (int i =0;i<v.size();i++){
             System.out.println(v.get(i));
         }
+
 
         System.out.println("---------------");
 // iteration through for each loop
@@ -29,6 +31,8 @@ public class lab124_Vectors {
             System.out.println(i.next());
         }
         System.out.println("---------------");
+
+
 
 
 

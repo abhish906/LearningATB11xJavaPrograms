@@ -13,6 +13,7 @@ public class Lab133_Queue {
         q.offer("Six");
         //q.offer(null);
         q.remove("Third");
+
         q.poll();
 
 

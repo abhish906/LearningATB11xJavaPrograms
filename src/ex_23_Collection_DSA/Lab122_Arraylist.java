@@ -9,7 +9,7 @@ public class Lab122_Arraylist {
         a.add("Milk");
         a.add("Chocolate");
         a.add("Ice cream");
-        a.add("coffee");
+        a.add("Coffee");
         a.add(456);
         a.add("Coffee");
         a.add(null);

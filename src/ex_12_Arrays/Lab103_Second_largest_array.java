@@ -1,6 +1,7 @@
 package ex_12_Arrays;
 
-public class Lab103_Second_largest_array {
+public class
+Lab103_Second_largest_array {
     public static void main(String[] args) {
         int a[]={3,8,9,10,10,12,11,12};
         int max=a[0];

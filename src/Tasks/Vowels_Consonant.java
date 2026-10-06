@@ -6,10 +6,10 @@ public class Vowels_Consonant {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the text");
-        String text=sc.next();
+        String text=sc.nextLine();
         int vowels=0;
         int cons=0;
-        text=text.toLowerCase();
+        text=text.replace(" ","").toLowerCase();
         for(int i=0;i<text.length();i++)
         {
             char ch=text.charAt(i);

@@ -9,7 +9,7 @@ public class Lab082_array_1 {
         System.out.println(a.length);
 
         int max=a[0];
-        for(int i=1;i<a.length;i++)
+        for(int i=0;i<a.length;i++)
         {
             if(a[i]>max)
             {

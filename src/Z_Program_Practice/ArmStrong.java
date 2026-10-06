@@ -1,0 +1,32 @@
+package Z_Program_Practice;
+
+import java.util.Scanner;
+
+public class ArmStrong {
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int input=sc.nextInt();
+        int temp=input;
+        int sum=0;
+        int r;
+        while(input>0)
+        {
+            r=input%10;
+            input=input/10;
+            sum=sum+(r*r*r);
+        }
+        if(temp==sum)
+        {
+            System.out.println("Armstrong number");
+        }
+
+        else{
+            System.out.println("Not a Armstrong Number");
+        }
+
+
+    }
+
+}

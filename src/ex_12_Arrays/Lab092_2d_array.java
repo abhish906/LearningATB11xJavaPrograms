@@ -26,7 +26,35 @@ public class Lab092_2d_array {
 
         }
 
-        int [][]b={{1,2,3},{4,5,6},{7,8,9}};
+        int [][]b={{1,2,3},{4,5,6},{7,8,9},{9,10,11}};
+
+        for( int i=0;i<b.length;i++)
+        {
+            int sum=0;
+            for(int j=0;j<b[i].length;j++)
+            {
+                sum=sum+b[i][j];
+
+            }
+            System.out.println("sum of row " + (i+1) +" = " +sum);
+        }
+
+        for( int j=0;j<b.length;j++)
+        {
+            int sum1=0;
+            for(int i=0;i<=b[j].length;i++)
+            {
+                sum1=sum1+b[i][j];
+            }
+            System.out.println( "Sum of coloumns"+ (j+1) +" = "+ sum1);
+        }
+
+
+
+
+
+
+
 
 
 

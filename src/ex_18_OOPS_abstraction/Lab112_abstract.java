@@ -15,7 +15,7 @@ public class Lab112_abstract {
 
 abstract class Father{
     abstract void loan50k();
-    void loan25k(){
+    void  loan25k(){
         System.out.println("25k loan");
     }
 }

@@ -22,6 +22,7 @@ public class Lab108_Parameterised {
         car2 c4=new car2("Nexon",2018);
         System.out.println(c4.name);
         System.out.println(c4.model);
+        System.out.println(c4.year);
         c1.car();
         c2.car();
         c3.car();
@@ -30,7 +31,8 @@ public class Lab108_Parameterised {
 
     }
 }
-class car2{
+class
+car2{
     String name;
     int year;
     String model;

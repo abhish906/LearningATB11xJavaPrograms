@@ -17,6 +17,7 @@ public class Lab131_Comparable  {
         System.out.println(st);
 
         Collections.sort(st);
+
         System.out.println(st);
 
     }

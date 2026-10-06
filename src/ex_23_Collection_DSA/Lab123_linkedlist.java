@@ -12,6 +12,7 @@ public class Lab123_linkedlist {
         l.addFirst("Soda");
         l.addLast("Candy");
 
+
         System.out.println(l);
         System.out.println(l.size());
         System.out.println(l.getFirst());

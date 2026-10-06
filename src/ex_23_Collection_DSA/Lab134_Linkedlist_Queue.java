@@ -14,6 +14,7 @@ public class Lab134_Linkedlist_Queue {
         q.offer("Five");
         q.offer("Five");
         q.offer(null);
+
         System.out.println(q);
         System.out.println(q.peek());
         System.out.println(q.poll());

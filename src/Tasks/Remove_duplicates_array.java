@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Remove_duplicates_array {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 2, 6, 6, 7, 7, 8, 9,9,10,55,55};
+        int[] arr = {1, 1, 2, 2, 6, 6, 7, 7, 8, 9,9,10,55,55,2,2,1,1};
        removeDuplicate(arr);
 
     }

@@ -12,6 +12,9 @@ public class Lab127_Stack {
         s.push("Pink");
         s.push("Blue");
 
+
+
+
         System.out.println(s);
         s.remove("Black");
         System.out.println(s.size());

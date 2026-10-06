@@ -9,12 +9,12 @@ public class Lab089_sum_arrays {
             sum=sum+a[i];
         }
         System.out.println(sum);
-        int add=0;
+        int add=1;
 
 
         for(int n:a)
         {
-            add=add+n;
+            add=add*n;
         }
         System.out.println(add);
     }

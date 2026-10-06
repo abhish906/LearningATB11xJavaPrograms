@@ -18,6 +18,8 @@ public class Lab135_ArrayDeque {
      dq.offerFirst(1);
      dq.offerLast(13);
 
+
+
      //dq.offer(null);
 
         System.out.println(dq);
